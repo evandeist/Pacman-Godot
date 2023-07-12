@@ -1,0 +1,31 @@
+implement:
+- save high scores
+- game set up and start jingle
+- choosing which way to go when leaving the ghost house (based on mode changes?)
+- title screen with tutorial animations
+- cutscene animations (actual scenes!)
+
+fix:
+- WAY TOO MANY PASS-THROUGHS
+- pinky going wrong way at spawn?
+- if power pellet is last dot eaten, ghosts should turn blue but freeze and no sound
+- ghosts sometimes go through walls for some reason
+- positions jank up when resizing window
+- pac dot audio jank (how does he actually eat them??)
+- blue ghosts sometimes pass through walls upon turning blue
+- holding up at start of game gets pac man stuck (happens sometimes but not all the time)
+
+nitpicks:
+- should clyde have a circular detection range or a diamond?
+- should the siren play at the same time as the retreat sound?
+- where is the bottom of the ghost house?
+- Blue ghosts choose a direction randomly, then clockwise until valid (who cares lol)
+- PRNG is reset with same initial seed
+- ghosts continually animated their bottom halfs all the time
+- ghost/pac/eyes/fruit drawing priority
+- slight audio reverb
+- During flash:
+- alternate blue / white 14 frames each
+- FINAL FLASH IS 11
+- so timer for flashing equals:
+(FLASHNUMBER - 1)*(14/60) + (11/60)

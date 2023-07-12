@@ -1,0 +1,40 @@
+# prioritize turning over going straight
+	# if currently cornering, keep cornering
+	
+	# getNewPlayerDirection()
+	# if not, the we will determine new direction
+	# take xInput and yInput (both -1,0,1)
+	# match pacman current direction
+	# horiz
+		# if yInput is not 0
+			# check current tile's special conditions or if we are in the turning zone
+			# if both checks pass, check whether there is a valid tile in that direction
+				# if yes, we are now cornering. Change pac's direction
+		# else if xInput is the opposite of current direction
+			# turn around
+		# else current direction remains the same
+	# vert
+		# if xInput is not 0
+			# check current tile's special conditions or if we are in the turning zone
+			# if both checks pass, check whether there is a valid tile in that direction
+				# if yes, we are now cornering. Change pac's direction
+		# else if yInput is the opposite of current direction
+			# turn around
+		# else current direction remains the same
+
+
+	# func movePlayer(worldPosition, direction)
+	# calculate pac/ghost destination
+	# going straight?
+		# pac speed * delta * current direction
+		# if this tile has a wall at the end, 
+			# stop pac man at the middle of this tile, if he would pass the middle
+	# cornering?
+		# a whole load of nonsense
+		# find the axis pac man must align to
+		# pac man will move both in his new direction (so just do the above) and in his old direction until he is aligned with the axis
+		# find difference in world position from pac to line
+		# move pac toward the the line by speed*delta
+		# be sure to snap pac man to axis when he is projected to overstep. 
+			# At this point, he is no longer in the cornering state and now back to moving
+		

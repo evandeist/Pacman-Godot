@@ -1,0 +1,32 @@
+Pinky dot limit is always 0, (as is blinky's technically, but he never waits)
+
+first level:
+pinky leaves,
+inky waits for 30 dots to be eaten
+clyde waits for 60 more dots to be eaten
+
+second level:
+pinky 0
+inky 0
+clyde 50
+
+third level:
+all 0
+
+ON LIFE LOST:
+each ghost's dot counter is disabled but not reset
+global counter used instead
+
+pinky - global counter is 7
+inky - global counter is 17
+clyde - global counter is 32
+if clyde is in the house and global is 32, global is reset to 0 and deactivated and personal counters are re-activated
+
+ADDITIONALLY:
+timer for last time a dot was eaten
+once timer timesout, next ghost leaves, timer resets
+
+stage 1-4:
+timer = 4 seconds
+stage 5:
+timer = 3 seconds

@@ -1,0 +1,18 @@
+win screen:
+freeze pac man and ghosts ~110 frames
+maze goes white next frame, continues 12 frames
+ghosts disapear on frame 2
+maze goes blue for 12 frames
+white
+blue
+white
+blue
+white
+blue
+next frame, maze, lives, stage counter disappear
+next frame, score disappears
+pac man stays 2 more frames then disappears, stage counter returns, not updated
+
+19 frames later, maze loaded in, and score hud returns, weird black strip down the middle
+next frame disappears next frame
+3 frames later, we reset, new bonus symbol
