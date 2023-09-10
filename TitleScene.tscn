@@ -11,8 +11,12 @@ margin_bottom = 608.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="Label" type="Label" parent="."]
-margin_left = 480.0
-margin_top = 304.0
-margin_right = 556.0
-margin_bottom = 318.0
-text = "PRESS ENTER TO BEGIN"
+margin_left = 416.0
+margin_top = 240.0
+margin_right = 611.0
+margin_bottom = 334.0
+text = "USE THE ARROW KEYS TO PLAY
+
+PRESS ENTER TO BEGIN"
+align = 1
+valign = 1

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PacmanAttempt.icon.png-fa36b05b7351d8a33326ff41db6a7223.stex"
+path="res://.import/PacmanAttempt.png-79e5b935646dbeecfa5c714fc3b38b65.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://PacmanAttempt.icon.png"
-dest_files=[ "res://.import/PacmanAttempt.icon.png-fa36b05b7351d8a33326ff41db6a7223.stex" ]
+source_file="res://Graphics/PacmanAttempt.png"
+dest_files=[ "res://.import/PacmanAttempt.png-79e5b935646dbeecfa5c714fc3b38b65.stex" ]
 
 [params]
 

@@ -1,0 +1,13 @@
+[remap]
+
+importer="image"
+type="Image"
+path="res://.import/pacman_bezel_1.png-c21f9a7aee6847a88d4a37be3eb0041b.image"
+
+[deps]
+
+source_file="res://Graphics/pacman_bezel_1.png"
+dest_files=[ "res://.import/pacman_bezel_1.png-c21f9a7aee6847a88d4a37be3eb0041b.image" ]
+
+[params]
+

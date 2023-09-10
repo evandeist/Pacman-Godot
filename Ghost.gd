@@ -303,8 +303,8 @@ func updateTile():
 		newTileFlag = true
 	currentTile = t
 	
-	if (!maze.isValidTile(t)):
-		print("OOOOOOH MY GOO-OOD")
+	#if (!maze.isValidTile(t)):
+		#print("OOOOOOH MY GOO-OOD")
 	
 	if state == states.EYES && currentTile in maze.get_node('InfoTiles').get_used_cells_by_id(10):
 		changeState(states.RESPAWNING)
@@ -418,7 +418,7 @@ func _on_Dots_PowerPelletEaten():
 	if canTurnBlue():
 		isBlue = true
 		if state == states.WAITING || state == states.SPAWNING:
-			print("IM GONNA GO RIIIIGHT")
+			#print("IM GONNA GO RIIIIGHT")
 			exitLeft = false
 			$AnimatedSprite.play("TURN-TO-BLUE")
 		else:
